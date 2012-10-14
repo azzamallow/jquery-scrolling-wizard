@@ -22,13 +22,13 @@ describe('ScrollingWizard', function() {
     });
     return it('should overwrites the settings', function() {
       var plugin;
-      plugin = new $.scrollingWizard(this.$element, options);
+      plugin = new $.scrollingWizard(options);
       return expect(plugin.settings.message).toBe(options.message);
     });
   });
   return describe('plugin state', function() {
     beforeEach(function() {
-      return this.plugin = new $.scrollingWizard(this.$element);
+      return this.plugin = new $.scrollingWizard();
     });
     it('should have a ready state', function() {
       return expect(this.plugin.getState()).toBe('ready');

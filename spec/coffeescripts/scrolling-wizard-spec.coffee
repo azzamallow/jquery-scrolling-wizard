@@ -19,13 +19,13 @@ describe 'ScrollingWizard', ->
       expect( plugin.defaults ).toBeDefined()
 
     it 'should overwrites the settings', ->
-      plugin = new $.scrollingWizard( @$element, options )
+      plugin = new $.scrollingWizard( options )
 
       expect( plugin.settings.message ).toBe( options.message )
 
   describe 'plugin state', ->
     beforeEach ->
-      @plugin = new $.scrollingWizard( @$element )
+      @plugin = new $.scrollingWizard( )
 
     it 'should have a ready state', ->
       expect( @plugin.getState() ).toBe 'ready'
