@@ -14,7 +14,7 @@
     "url"  : "git://github.com/azzamallow/jquery-scrolling-wizard.git"
   },
   "bugs" : {
-    "url" : "https://github.com/azzamallow/jquery-scrolling-wizard/issues",
+    "url" : "https://github.com/azzamallow/jquery-scrolling-wizard/issues"
   },
   "licenses": [{
     "type": "MIT"
